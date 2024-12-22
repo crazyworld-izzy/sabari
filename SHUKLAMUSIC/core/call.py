@@ -192,7 +192,7 @@ class Call(PyTgCalls):
             AudioVideoPiped(
                 out,
                 audio_parameters=HighQualityAudio(),
-                video_parameters=MediumQualityVideo(),
+                video_parameters=HighQualityVideo(),
                 additional_ffmpeg_parameters=f"-ss {played} -to {duration}",
             )
             if playing[0]["streamtype"] == "video"
