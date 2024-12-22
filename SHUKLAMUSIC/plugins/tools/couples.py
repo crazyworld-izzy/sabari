@@ -14,8 +14,8 @@ from SHUKLAMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𓊈𒆜彡[𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗪𝗢𝗥𝗟𝗗 ]彡𒆜𓊉",
-            url=f"https://t.me/MASTIWITHFRIENDSXD",
+            text="𓊈𓆰⚡͚̍𝆹𝅥𝐁𝔢𝖆𝛅𝐓 𝐅🐺𝐗 𝐍𝔢𝖙𝔴𝖔𝔯𝐊🕸️"᳝𓊉",
+            url=f"https://t.me/beast_fox_network",
         ),
     ],
 ]
@@ -53,7 +53,7 @@ async def ctest(_, message):
          #GET LIST OF USERS
          list_of_users = []
 
-         async for i in app.get_chat_members(message.chat.id, limit=50):
+         async for i in app.get_chat_members(message.chat.id, limit=2):
              if not i.user.is_bot:
                list_of_users.append(i.user.id)
 
