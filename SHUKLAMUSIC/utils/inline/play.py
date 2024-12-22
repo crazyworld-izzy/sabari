@@ -65,8 +65,14 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+              [
+            InlineKeyboardButton(text=" 𝐃𝝴𝛄𝝴𝖑𖦹𝞀𝖗 ", url=f"https://t.me/Itz_alpha_dude"),
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥 𞥇", url=f"https://t.me/Backtofireda"),           
+        ],
+        [
+        InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
+        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close"),
+        ]
     ]
     return buttons
 
@@ -79,8 +85,14 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+       [
+            InlineKeyboardButton(text=" 𝐃𝝴𝛄𝝴𝖑𖦹𝞀𝖗 ", url=f"https://t.me/Itz_alpha_dude"),
+            InlineKeyboardButton(text="𝀤ٜ𖦹 𝘄 𝐍 𞥄𝝴 𝗥 𞥇", url=f"https://t.me/Backtofireda"),           
+        ],
+        [
+        InlineKeyboardButton(text="𝐔𝞀𝗱𝛂𝖙𝝴", url=f"https://t.me/beast_fox_network"),
+        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" close"),
+        ]
     ]
     return buttons
 
