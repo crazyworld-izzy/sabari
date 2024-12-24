@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002346808838))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002406147275))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 6799458147))
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "BQGhfYIAghELKHicR6j6OH-h5tW20tmGIP9BreAgYjmbi6yudpNwKD-xLg-9E-_Dp9Ute46k2h1g4LLXwxdizEsPLTvzn9fqhKGH99b5bM0fTu31FnvyqupxL8WBg58DqbAISwvUydXw_4rJ9cpTW9UI2Fnh_FaKcp5jO6LtyLcSem_vEZvbJjw3HbYCfuanJUAnrWEqw2lDu4LmnACMsuGUP6tQUvuTLS2lLjYrEfBzPei4XzXiBEQoJOn_-8zAyK32VUea7O9Qf2bVslQtrX2x_zSZKxXeDRYgRVrebzW2EWMz47SB84FkKQmxup9T-k4jLrXV7yMr5NMGbUB-KXKHSS_UOAAAAAF2mYBnAA")
+STRING1 = getenv("STRING_SESSION", "BQGhfYIAICwytGQrQooJn5KAQN-YpIGFR8s_vtBXfCn5rDzq-ec_NM-Zzdhz21DEmMF9cqFQFJwMHLAPxe2LOT02MOauwYVv6iIR5goAA5XlikM4sFBx3ddcGVv-xMj6TL4zSun-7HQtJa8IlsQTbWpBdjk5yRxlANygMKqwPhyL5U9AZ_T-R4XcBnaHJFeFdSMTY8sUfLVTWFOLCs0I6i9NOfLnGzIYH1DxOJxfrPQnLI_rN20Ih3xW5DEl_mwxOwxf55OyDOzB7sU0NPXgG7Wu6hkMOgbmrWRRfTgNJYRwj5YAR1_8NbmXhEVJ3rwDWNx7Fh4AqgifWGDNX5LuKcZACNXhpAAAAAHnzDx_AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
